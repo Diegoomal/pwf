@@ -1,0 +1,26 @@
+<!--Theme Styled cards 2-->
+<ion-content>
+  <ion-grid no-padding *ngIf="data != null">
+    <ion-row>
+      <ion-col col-12 col-sm-6 col-lg-6 col-xl-4 *ngFor="let item of data.items;let i = index">
+          <ion-card box-shadow text-left (click)="onEvent('onItemClick', item, $event)">
+              <ion-card-header>
+                <ion-card-title card-title>{{item.title}}</ion-card-title>
+                <ion-card-subtitle card-subtitle>{{item.subtitle | currency:'BRL':true:'1.2-2'}}</ion-card-subtitle>
+              </ion-card-header>
+            
+              <ion-card-content card-body-text>
+                  {{item.description}}
+              </ion-card-content>
+            </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<!--Fab Button-->
+<ion-fab #fab bottom right>
+  <button button-ion-fab ion-fab (click)="onEvent('onFab', data, $event)">
+    <ion-icon name="add"></ion-icon>
+  </button>
+</ion-fab>

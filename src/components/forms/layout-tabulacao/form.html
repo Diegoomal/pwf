@@ -1,0 +1,38 @@
+<!--  Theme Form - Form + Write Comment -->
+<ion-content>
+  <ion-grid *ngIf="data != null">
+    <ion-row padding>
+      <ion-col col-12>
+        <ion-item no-lines box-shadow>
+          <ion-select [(ngModel)]="servico">
+              <ion-label>Serviço</ion-label>
+            <ion-option *ngFor="let servico of servicos" [value] = "servico" [checked]="false">{{servico.title}}</ion-option>
+            
+          </ion-select>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <ion-item no-lines box-shadow>
+            
+          <ion-label>Date</ion-label>
+          <ion-datetime no-margin  [placeholder]="data.dataTabulacao" [(ngModel)]="dataTabulacao" display-format="MMM DD, YYYY HH:mm"></ion-datetime>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+          <ion-item no-lines box-shadow>
+            <ion-input no-margin type="number" [placeholder]="data.valorCobrado" [(ngModel)]="valorCobrado"></ion-input>
+          </ion-item>
+        </ion-col>
+      <ion-col col-12 textarea>
+        <ion-item no-lines box-shadow>
+          <ion-textarea no-margin  [placeholder]="data.description" [(ngModel)]="description"></ion-textarea>
+        </ion-item>
+      </ion-col>
+      <ion-col col-12>
+        <button ion-button button-clear-outline round outline block text-capitalize (click)="onEvent('onSubmit', $event)">
+        {{data.button}}
+        </button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

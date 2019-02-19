@@ -1,0 +1,8 @@
+{
+  "name": "sandra-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "app_id": "c7e6be4b",
+  "type": "ionic-angular"
+}

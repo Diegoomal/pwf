@@ -1,0 +1,1 @@
+export interface Aula { description: string; title: string; nivel: string; id: string;}
