@@ -1,1 +1,5 @@
-### :point_right: This starter repo has moved to the [ionic-team/starters](https://github.com/ionic-team/starters/tree/master/ionic-angular/official/sidemenu) repo! :point_left:
+Para iniciar o projeto seguir os passos:
+git clone https://github.com/rodrigo-sntg/pwf.git
+cd pwf
+npm install
+ionic serve
