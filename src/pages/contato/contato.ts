@@ -18,8 +18,8 @@ export class ContatoPage {
   params: any = {};
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.params.data = {
-      'headerImage':'/assets/images/background/24.jpg',
-      'image':'/assets/images/avatar-small/pwf.jpg',
+      'headerImage':'/assets/images/background/peopleware_bg.png',
+      'image':'/assets/images/avatar-small/pwf.png',
       'title':'PWF',
       'subtitle':'Starting Up Your Business',
       'valueFollowers':'230',
