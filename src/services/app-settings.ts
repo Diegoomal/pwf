@@ -8,14 +8,16 @@ export const AppSettings = {
       "position": "buttom"
     },
     "FIREBASE_CONFIG": {
-        "apiKey": "AIzaSyAbrQ5zR6rw5aghxKkhnVjRa1PyTUrmouU",
-        "authDomain": "new-app-fa2d7.firebaseapp.com",
-        "databaseURL": "https://new-app-fa2d7.firebaseio.com",
-        "projectId": "new-app-fa2d7",
-        "storageBucket": "new-app-fa2d7.appspot.com",
-        "messagingSenderId": "207947944699"
+        "apiKey": "AIzaSyANCzdFxRUCAgIK7X31KCaSGANqEx5n-_U",
+        "authDomain": "pwf-poc.firebaseapp.com",
+        "databaseURL": "https://pwf-poc.firebaseio.com",
+        "projectId": "pwf-poc",
+        "storageBucket": "pwf-poc.appspot.com",
+        "messagingSenderId": "258045726391"
     },
     "MAP_KEY": {
         "apiKey": 'AIzaSyA4-GoZzOqYTvxMe52YQZch5JaCFN6ACLg'
     }
 };
+
+
