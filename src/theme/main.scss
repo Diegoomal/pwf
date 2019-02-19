@@ -95,23 +95,23 @@ $border-radius: 4px;
 ================================================*/
 $palettes: (
   mainColors: ( // Also used for backgrounds.
-      primary:   #0090d0, // Used for toolbars, button-clear-outline, checkbox, toggle-background, tabs-background, map-header, alert
+      primary:   #7b56a9, // Used for toolbars, button-clear-outline, checkbox, toggle-background, tabs-background, map-header, alert
       secondary:  #f7f7f7, // Used for various small elements, item-divider, swipe section, background Ionic App, item-md-sliding-content-background
       secondary-first:  #3b6cac, // Used for gradient
       accent:   #ffffff, //Used for icon-search-bar, loaders-spinners, checkbox-item, icon, button, span, item-divider, input-field-icons, black-white-mode, header section, google-card-background-color, checkbox, toggle, search bar, input-field
-      accent-first: #00c0e8, // Used for spinner, button-ion-fab, badge
+      accent-first: #2b9ed5, // Used for spinner, button-ion-fab, badge
       accent-other: #cc7ea1, // Used for gradient, header animation, checkbox, radio, range
   ),
 
   textColors: ( // Used for text colors in all screens
-      primary: #00c0e8, // Used for text colors in: header-title, icon, span, alert
-      secondary: #0090d0, // Used for text colors in: buttons, header-subtitle, input field, search-bar, alert
+      primary: #2b9ed5, // Used for text colors in: header-title, icon, span, alert
+      secondary: #7b56a9, // Used for text colors in: buttons, header-subtitle, input field, search-bar, alert
       accent:   #455B65, // Used for text colors in: item-title, item-subtitle, card-title, card-subtitle, card-body-text, swiped-item-title, parallax-description, map-header, map-content-title, maps-description
       accent-first: #ffffff, //Used for icon, subitem-title, subitem-subtitle, button, fab button, parallax-title, parallax-subtitle, checkbox, wizard-title, wizard-body-text, tabs, maps-title, maps-subtitle, toolbar
   ),
   blendModes: ( // Used for blend modes
       primary:  #ffffff,
-      secondary: #0090d0
+      secondary: #7b56a9
   )
 );
 

@@ -32,7 +32,7 @@ export class LoginPage {
             "register": "Register",
             "login": "Login",
             "skip": "Skip",
-            "logo": "assets/images/logo/login.png"
+            "logo": "assets/images/logo/login.svg"
         };
         let that = this;
 
