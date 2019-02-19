@@ -1,4 +1,4 @@
-import { ListaTabulacoesPage } from './../lista-tabulacoes/lista-tabulacoes';
+import { ListaServicosPage } from './../lista-servicos/lista-servicos';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { IService } from '../../services/IService';
