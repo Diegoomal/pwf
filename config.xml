@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.csform.ionic.blue" version="0.0.8" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>PwF Startups</name>
-    <description>Webapp PwF Startups</description></description>
-    <author email="pwfstartups@gmail.com" href="no">PWF</author>
+    <description>PWF</description>
+    <author email="pwfstartups@murah.com.br" href="pwfstartups">PWF Startups</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
