@@ -97,7 +97,7 @@ $palettes: (
   mainColors: ( // Also used for backgrounds.
       primary:   #7b56a9, // Used for toolbars, button-clear-outline, checkbox, toggle-background, tabs-background, map-header, alert
       secondary:  #f7f7f7, // Used for various small elements, item-divider, swipe section, background Ionic App, item-md-sliding-content-background
-      secondary-first:  #3b6cac, // Used for gradient
+      secondary-first:  #cc7ea1, // Used for gradient
       accent:   #ffffff, //Used for icon-search-bar, loaders-spinners, checkbox-item, icon, button, span, item-divider, input-field-icons, black-white-mode, header section, google-card-background-color, checkbox, toggle, search bar, input-field
       accent-first: #2b9ed5, // Used for spinner, button-ion-fab, badge
       accent-other: #cc7ea1, // Used for gradient, header animation, checkbox, radio, range
@@ -233,8 +233,8 @@ img {
 
     to {
       background-color: #cc7ea1;
-      background-color: -webkit-gradient(linear, right top, left top, from(#cc7ea1), to(#3b6cac));
-      background-color: linear-gradient(to left, #cc7ea1 0%, #3b6cac 100%);
+      background-color: -webkit-gradient(linear, right top, left top, from(#cc7ea1), to(#cc7ea1));
+      background-color: linear-gradient(to left, #cc7ea1 0%, #cc7ea1 100%);
     }
   }
 
