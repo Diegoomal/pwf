@@ -5,12 +5,12 @@
     <ion-col col-12>
       <ion-card transparent text-center>
         <ion-item box-shadow transparent text-center *ngIf="data != null"
-        background-size [ngStyle]="{'background-image': 'url(' + data.headerImage + ')'}">
+        background-size [ngStyle]="{'background': 'linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5) ), url(' + data.headerImage + ')'}">
           <ion-avatar>
             <img [src]="data.image" alt="">
           </ion-avatar>
-          <h1 font-bold item-title color="accent">{{data.title}}</h1>
-          <p text-wrap item-title color="accent">{{data.subtitle}}</p>
+          <h1 font-bold item-title style="color:white !important" >{{data.title}}</h1>
+          <p text-wrap item-title style="color:white !important">{{data.subtitle}}</p>
         </ion-item>
         <ion-row no-padding margin-top>
           <ion-col>

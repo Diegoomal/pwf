@@ -17,12 +17,12 @@ export class TabulacaoService {
 
   getTabulacoes(){
     return new Promise<any>((resolve, reject) => {
-      let currentUser = firebase.auth().currentUser;
+      /* let currentUser = firebase.auth().currentUser;
       this.snapshotChangesSubscription = this.afs.collection('people').doc(currentUser.uid).collection('tabulacoes').snapshotChanges()
       .subscribe(snapshots => {
       
         resolve(snapshots);
-      })
+      }) */
     });
   }
 
